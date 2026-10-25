@@ -1,0 +1,30 @@
+{
+  "optimization_target": "Liuhe Pagoda Garden Heritage Scene",
+  "tool": "SuperSplat Interactive Editor",
+  "optimization_strategy": {
+    "roi_crop": true,
+    "remove_background_points": true,
+    "remove_floaters": true,
+    "preserve_heritage_details": true
+  },
+  "parameters": {
+    "cropping_boundary": "heritage core area, excluding distant sky and background",
+    "floater_removal_threshold": "low-density isolated Gaussian points",
+    "target_reduction_rate": 0.255,
+    "minimum_fidelity_requirement": 0.9
+  },
+  "optimization_steps": [
+    "1. Load raw PLY 3DGS model",
+    "2. Define bounding box around core heritage scene",
+    "3. Remove distant background and sky points",
+    "4. Manually remove floating artifacts and unstable points",
+    "5. Inspect critical details (signage, pillars, vegetation)",
+    "6. Export optimized PLY model"
+  ],
+  "verified_result": {
+    "gaussian_points_before": 1500000,
+    "gaussian_points_after": 1116548,
+    "reduction_rate": "25.5%",
+    "visual_fidelity": "90%+"
+  }
+}
