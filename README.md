@@ -37,7 +37,7 @@ This repository includes the modules I was personally responsible for:
 - **results** – Summary of core test metrics and comparative analysis results
 
 ## Supplementary Materials
-- Full research process, optimization workflow and quantitative test results are presented in detail in the portfolio and course project report.
+- Full research process, optimization workflow and quantitative test results are presented in detail in the portfolio and project report.
 - Core findings provide technical and methodological support for the metaverse deployment of cultural heritage spatial scenes.
 
 ## Notes
